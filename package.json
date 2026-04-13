@@ -46,20 +46,19 @@
   },
   "dependencies": {
     "@crowdstrike/aidr": "^1.0.2",
-    "@google/genai": "^1.33.0"
+    "@google/genai": "^1.46.0"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "0.18.2",
     "@biomejs/biome": "2.3.8",
-    "@containerbase/semantic-release-pnpm": "1.3.9",
-    "@kenan/biome-config": "1.0.6",
+    "@containerbase/semantic-release-pnpm": "1.3.28",
     "@tsconfig/node22": "22.0.5",
     "@types/node": "22.19.2",
     "conventional-changelog-conventionalcommits": "9.1.0",
-    "lefthook": "2.0.11",
-    "publint": "0.3.16",
-    "semantic-release": "25.0.2",
-    "tsdown": "0.17.2",
+    "lefthook": "2.0.15",
+    "publint": "0.3.17",
+    "semantic-release": "25.0.3",
+    "tsdown": "0.21.4",
     "typescript": "5.9.3"
   }
 }

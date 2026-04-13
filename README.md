@@ -31,6 +31,11 @@ const response = await ai.models.generateContent({
 console.log(response.text);
 ```
 
-Note that AI Guard transformations on the LLM response are **not** applied
-because the conversion from Gemini API output to CrowdStrike AIDR input is
-lossy.
+## Limitations
+
+- CrowdStrike AIDR transformations on the LLM response are **not** applied
+  because the conversion from Gemini API output to CrowdStrike AIDR input is
+  lossy.
+- Only the `models.generateContent()` method is currently supported. Other
+  methods on the Google Gen AI SDK (e.g. `models.generateContent()`) are not yet
+  wrapped with CrowdStrike AIDR and will not be guarded.
