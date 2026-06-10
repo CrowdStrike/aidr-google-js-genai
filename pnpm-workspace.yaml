@@ -1,1 +1,5 @@
 strictPeerDependencies: true
+
+allowBuilds:
+  '@google/genai': true
+  protobufjs: true
